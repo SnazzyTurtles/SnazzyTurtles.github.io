@@ -1,0 +1,57 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="icon.jpg">
+    <link rel="stylesheet" href="room.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300&display=swap" rel="stylesheet">
+    <title>MultiPiano Room</title>
+</head>
+<body>
+    <div id="header">
+        <img id="icon" src="icon.jpg" alt="">
+        <h1><s>Multi</s>Piano</h1>
+        <p id="roomlabel"> oogabooga </p>
+    </div>
+    
+   
+
+
+    <div id = "piano">
+        <div id = "whitekeys">
+           
+        </div>
+
+        <div id = "blackkeys">
+            
+        </div>
+        
+    </div>
+
+    <div id = "audioSources">
+    </div>
+
+    <div id="footer">
+        <div class="footercontainer">
+            <p>Volume</p>
+            <input type="range" min ="0" max = "100" value = "60" id = "volumeSlider">
+        </div>
+        <div class="footercontainer">
+            <p>Hotkeys</p>
+            <div class="hotkeys">
+                <p>[D] - Tonic of major key</p>
+                <p>Left/Right Arrow - Semitone shift</p>
+                <p>Left/Right Shift - Octave shift</p>
+                <p>[A] row keys are the major diatonic notes (ie white keys in C major)</p>
+                <p>[Q] row keys are the major chromatic notes (ie black keys in C major)</p>
+            </div>
+        </div>
+    </div>
+
+
+    <script src = "room.js"></script>
+</body>
+</html>
