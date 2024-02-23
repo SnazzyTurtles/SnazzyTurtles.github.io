@@ -63,7 +63,7 @@ class File{
 
     getContent(){
         if(this.name == "RESUME"){
-            window.open("Arthur-Bright-Resume.pdf", '_blank');
+            window.open("Harry Jiang Resume.pdf", '_blank');
             return undefined;
         }
         else{
@@ -141,20 +141,19 @@ const previousCommands = [""];
 var commandIndex = 0;
 
 var about = new Folder("about"); root.addFolder(about);
-    about.addFile(new File("bio", "Hi, my name is Arthur Bright! I'm a third year Computer Science Student at University of Waterloo.<br>" + 
-    "I love making music and singing in the shower. I'm also into anything math (especially competitions :D)."));
+    about.addFile(new File("bio", "NEED TO CHANGE THIS"));
     about.addFile(new File("contacts", 
-        "Email: <a href=mailto:artb1234567@gmail.com target=_blank>artb1234567@gmail.com</a><br>" + 
-        "LinkedIn: <a href=https://www.linkedin.com/in/a2bright/ target=_blank>https://www.linkedin.com/in/a2bright</a><br>" + 
-        "Github: <a href=https://github.com/arthurbright target=_blank>https://github.com/arthurbright</a><br>" + 
-        "Instagram: <a href=https://www.instagram.com/artb_64 target=_blank>@artb_64</a><br>" + 
-        "Phone: 519-465-7304"));
+        "Email: <a href=mailto:h262jian@uwaterloo.ca target=_blank>h262jian@uwaterloo.ca</a><br>" + 
+        "LinkedIn: <a href=https://www.linkedin.com/in/harryjiang7/ target=_blank>https://www.linkedin.com/in/harryjiang7/</a><br>" + 
+        "Github: <a href=https://github.com/SnazzyTurtles target=_blank>https://github.com/SnazzyTurtles</a><br>" + 
+        "Phone: 604-880-9303"));
     about.addFile(new File("education", 
-        "University of Waterloo (2021-2026)<br>- Candidate for Bachelor of Computer Science<br>- 99.3 Faculty Average, 98 Overall Average; Advanced level math/CS courses<br>" + 
-        "- Putnam Top 200<br>- UW Small C champion"));
+        "University of Waterloo (2021-2026)<br>- Bachelor of Statistics, Dual Minor in Combinatorics & Optimization and Economics<br>" + 
+        "- Ronald G. Scoin/Rene Descartes National Scholarship ($18,000)"));
     about.addFile(new File("skills", 
-        "Languages: C++, Python, Java, C#, JS/TS, HTML/CSS<br>" + 
-        "Technologies: Git, Node.js, .NET, HTTP, SQL, VS, Tensorflow"));
+        "Languages: Python, R, Java, C, C++, C, JavaScript, Racket, HTML/CSS, SQL<br>" + 
+        "Technologies: Git, Node.js, .NET, HTTP, SQL, VS<br>" + 
+        "Relevant Coursework: Data Structures and Algorithms, Functional Programming, Data Abstraction, Computer Organization and Design, Logic and Computation, Object-Oriented Programming, Linear Algebra, Data and Statistical Analysis, Combinatorial Optimization, Sequential Programming, Numerical Computation, Stochastic Processes"));
     var hobbies = new Folder("hobbies"); about.addFolder(hobbies);
         hobbies.addFile(new File("music", "I've often said that if I wasn't into tech, then music would be my top career choice.<br><br>" + 
             "In past years, I've been really getting into music theory and mixing. I've uploaded a bunch of covers on my " + 
