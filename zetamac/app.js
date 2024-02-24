@@ -36,36 +36,20 @@
         );
       });
 
-      var pg_add = function pg_add() {
-        var left = randGens[genTypes[0]]();
-        var right = randGens[genTypes[1]]();
-        return [left + ' + ' + right, left + right];
-      };
-      var pg_sub = function pg_sub() {
-        var left = randGens[genTypes[0]]();
-        var right = randGens[genTypes[1]]();
-        return [left + right + ' \u2013 ' + left, right];
-      };
       var pg_mul = function pg_mul() {
         var left = randGens[genTypes[2]]();
         var right = randGens[genTypes[3]]();
-        return [left + ' \xD7 ' + right, left * right];
+        return [left + ' × ' + right, left * right];
       };
       var pg_div = function pg_div() {
         var left = randGens[genTypes[2]]();
         var right = randGens[genTypes[3]]();
         if (left !== 0) {
-          return [left * right + ' \xF7 ' + left, right];
+          return [left * right + ' ÷ ' + left, right];
         }
       };
 
       var pgs = [];
-      if (options.add) {
-        pgs.push(pg_add);
-      }
-      if (options.sub) {
-        pgs.push(pg_sub);
-      }
       if (options.mul) {
         pgs.push(pg_mul);
       }
@@ -118,33 +102,20 @@
         d_left.text('Seconds left: ' + d);
 
         if (d <= 0) {
-          correct_info.push([genned[0], genned[1], -1]);
-          var json = JSON.stringify(correct_info);
-          answer.prop('disabled', true);
-          var $doc = $(window.document);
-          var bsEat = function bsEat(e) {
-            return e.keyCode !== 8;
-          };
-          $doc.keydown(bsEat);
-          clearInterval(timer);
-
-          $.post(
-            '/log',
-            {
-              key: wls.match(/key=([0-9a-f]{8})/)[1],
-              problems: json
-            },
-            function(data) {
-              setTimeout(function() {
-                return $doc.unbind('keydown', bsEat);
-              }, 1000);
-              banner.find('.start').hide();
-              return banner.find('.end').show();
-            },
-            'html'
-          );
-        }
-      }, 1000);
+            correct_info.push([genned[0], genned[1], -1]);
+            var json = JSON.stringify(correct_info);
+            answer.prop('disabled', true);
+            clearInterval(timer);
+  
+            // Wipe the screen and display the final score
+            game.empty();
+            var endBanner = $('<div class="banner end"></div>');
+            endBanner.append('<p style="font-size: 36px;">Game Over!</p>');
+            endBanner.append('<p style="font-size: 12px;"></p><br>');
+            endBanner.append('<p class="score" style="font-size: 24px;">Your Score: <span class="final-score" style="font-size: 24;">' + correct_ct + '</span></p>');
+            game.append(endBanner);
+          }
+        }, 1000);
 
       if (wls.match(/\bpink\b/)) {
         $('.banner').css('background', 'pink');

@@ -335,9 +335,9 @@ function processCommand(str){
         let r = Math.floor(Math.random() * 12);
         window.open("images/pics" + r + ".jpg", '_blank');
     }
-    // else if(arr[0] == "game"){
-    //     window.open("zetamac/app.html", '_blank');
-    // }
+    else if(arr[0] == "game"){
+        window.open("zetamac/app.html", '_blank');
+    }
     else if(arr[0] == "help"){
         var s = "This website is based on the linux terminal. There are four simple commands:<br>" +
         "&nbsp;&nbsp;cat &lt;file-path&gt;: View the contents of a file.<br>" + 
