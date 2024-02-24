@@ -210,7 +210,8 @@ var experience = new Folder("experience"); root.addFolder(experience);
         "accounts, reducing new-customer onboarding time by over 75% and drastically decreasing user-support times."));
     experience.addFile(new File("2022-moneris", 
         "Moneris Solutions: Data Engineer || May 2022 - Aug 2022<br>" + 
-        "- Worked extensively with SQL databases, structuring and scripting to improve data efficiency and reliability. Have processes running on over 1 billion monthly data points, improving efficiency over previous systems by<br>" +
+        "- Worked extensively with SQL databases, structuring and scripting to improve data efficiency and reliability.<br>" +
+        "Have processes running on over 1 billion monthly data points, improving efficiency over previous systems by<br>" +
         "up to 90%.<br>" +
         "- Utilized specialized automation and data pipelining tools such as ActiveBatch and SSMS to run jobs and<br>" +
         "monitor daily performance metrics through improved auditing techniques.<br>" +
@@ -274,8 +275,19 @@ async function startup(){
     //     "██╔══██╗██╔══██╗██║██║░░╚██╗██╔══██║░░░██║░░░=" + 
     //     "██████╦╝██║░░██║██║╚██████╔╝██║░░██║░░░██║░░░=" + 
     //     "╚═════╝░╚═╝░░╚═╝╚═╝░╚═════╝░╚═╝░░╚═╝░░░╚═╝░░░=";
-    s = 
-    "NEED TO FINISH";
+    s = "";
+    "██╗  ██╗ █████╗ ██████╗ ██████╗ ██╗   ██╗=" +
+    "██║  ██║██╔══██╗██╔══██╗██╔══██╗╚██╗ ██╔╝=" +
+    "███████║███████║██████╔╝██████╔╝ ╚████╔╝=" +
+    "██╔══██║██╔══██║██╔══██╗██╔══██╗  ╚██╔╝=" +
+    "██║  ██║██║  ██║██║  ██║██║  ██║   ██║=" +
+    "╚═╝  ╚═╝╚═╝  ╚═╝╚═╝  ╚═╝╚═╝  ╚═╝   ╚═╝=" + 
+    "     ██╗██╗ █████╗ ███╗   ██╗ ██████╗=" +
+    "     ██║██║██╔══██╗████╗  ██║██╔════╝=" +
+    "     ██║██║███████║██╔██╗ ██║██║  ███╗=" +
+    "██   ██║██║██╔══██║██║╚██╗██║██║   ██║=" +
+    "╚█████╔╝██║██║  ██║██║ ╚████║╚██████╔╝=" +
+    " ╚════╝ ╚═╝╚═╝  ╚═╝╚═╝  ╚═══╝ ╚═════╝="; 
 
     if(window.innerWidth < 550){
         // s = 
@@ -284,7 +296,14 @@ async function startup(){
         // "█▄▄ █▀█ █ █▀▀ █░█ ▀█▀=" + 
         // "█▄█ █▀▄ █ █▄█ █▀█ ░█░==";
         s = 
-        "NEED TO FINISH";
+        "_ _   _   ___ ___ __ __=" +
+        "| U | / \ | o \ o \\ V /=" +
+        "|   || o ||   /   / \ /=" + 
+        "|_n_||_n_||_|\\_|\\ |_|=" +
+        "_  _   _   _  _  __=" +
+        "| || | / \ | \| |/ _|=" +
+        "n_| || || o || \\ ( |_n=" +
+        "\__/ |_||_n_||_|\_|\__/=";
     }
 
     await slowText(s);
