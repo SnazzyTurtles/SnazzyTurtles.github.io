@@ -333,7 +333,7 @@ function processCommand(str){
         }
     }
     else if(arr[0] == "pics"){
-        let r = Math.floor(Math.random() * 12);
+        let r = Math.floor(Math.random() * 11);
         window.open("images/pics" + r + ".jpg", '_blank');
     }
     else if(arr[0] == "game"){
