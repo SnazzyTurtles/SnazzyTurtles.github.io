@@ -167,27 +167,6 @@ var about = new Folder("about"); root.addFolder(about);
         hobbies.addFile(new File("sports", "NEED TO CHANGE THIS"));
         hobbies.addFile(new File("speedcubing", "NEED TO CHANGE THIS"));
         hobbies.addFile(new File("photography", "NEED TO CHANGE THIS"));
-// var projects = new Folder("projects"); root.addFolder(projects);
-//     projects.addFile(new File("multipiano", "A multiplayer piano! Built with Node.js + Socket.<br>" +
-//         "Try it out: <a href=https://multipiano.glitch.me/ target=_blank>https://multipiano.glitch.me/<\a> (might take a sec to load)<br>" + 
-//         "Source: <a href=https://github.com/arthurbright/Multipiano target=_blank>https://github.com/arthurbright/Multipiano<\a>"));
-//     projects.addFile(new File("spectral", "Neural network that identifies musical chords from audio samples using spectrogram (WIP). Built with Python + Tensorflow/Keras.<br>" +
-//         "Source: <a href=https://github.com/arthurbright/Spectral target=_blank>https://github.com/arthurbright/Spectral<\a>"));
-//     projects.addFile(new File("hotspot", "Crowd-sourced web app that tracks COVID-19 spread on a heatmap. Made with Node.js + React + MongoDB + Google Maps. Winner at Garuda Hacks 2020<br>" + 
-//         "Source: <a href=https://github.com/thesilican/garudahacks-2020 target=_blank>https://github.com/thesilican/garudahacks-2020<\a>"));
-//     projects.addFile(new File("sbotify", "Music downloader, like Spotify, but for free! Built with Node.js.<br>" + 
-//         "Source: <a href=https://github.com/arthurbright/Soundtrack-downloader target=_blank>https://github.com/arthurbright/Soundtrack-downloader<\a>"));
-//     projects.addFile(new File("manhunt", "A web app for friends to play manhunt! Run around and hide on campus. Built with Node.js + Socket<br>" + 
-//         "Try it out: <a href=https://manhunt.glitch.me/ target=_blank>https://manhunt.glitch.me/<\a> (might take a sec to load)<br>" + 
-//         "Source: <a href=https://github.com/arthurbright/Manhunt target=_blank>https://github.com/arthurbright/Manhunt<\a>"));
-//     projects.addFile(new File("my-website", "This website! Source: <a href=https://github.com/arthurbright/arthurbright.github.io target=_blank>https://github.com/arthurbright/arthurbright.github.io<\a>"));
-//     projects.addFile(new File("remind", "A discord bot for scheduling and recieving reminders.<br>" + 
-//         "Source: <a href=https://github.com/arthurbright/Re-mind target=_blank>https://github.com/arthurbright/Re-mind<\a>"));
-//     projects.addFile(new File("graph.io", "A graph visualizer! Draw a graph and run some common graph algorithms on it. Built with Unity.<br>" + 
-//         "Try it out: <a href=https://simmer.io/@afur/graph-io target=_blank>https://simmer.io/@afur/graph-io<\a> (might take a sec to load)<br>" + 
-//         "Source: <a href=https://github.com/arthurbright/Graph.io target=_blank>https://github.com/arthurbright/Graph.io<\a>"));
-//     projects.addFile(new File("portal2d", "A 2D version of the popular game Portal. Comes with 15 challenging levels. Built with Unity.<br>" + 
-//         "Game files: <a href=https://github.com/arthurbright/Portal2D target=_blank>https://github.com/arthurbright/Portal2D<\a>"));
 var experience = new Folder("experience"); root.addFolder(experience);
     experience.addFile(new File("2024-janestreet", 
         "Jane Street Capital: Quantitative Trader || May 2024 - August 2024<br>" + 
@@ -218,14 +197,9 @@ var experience = new Folder("experience"); root.addFolder(experience);
         "- Created several new scripts and methods for automating and streamlining future job creation and<br>" +
         "implementation, greatly improved reliability, and improved human implementation efficiency by over 75%."));
 root.addFile(new File("RESUME", ""));
-//var credits = new File("credits", "Website design and concept my <a href=https://github.com/arthurbright/arthurbright.github.io target=_blank>Arthur Bright</a>.<br>");
+var credits = new File("credits", "Website design and concept my <a href=https://github.com/arthurbright/arthurbright.github.io target=_blank>Arthur Bright</a>.<br>");
 
 var secret = new Folder("secret"); root.addFolder(secret);
-// for(let i = 2; i < 2; i ++){
-//     let s = new Folder("secret" + i.toString());
-//     secret.addFolder(s);
-//     secret = s;
-// }
 secret.addFile(new File("top-secret.txt", "Type 'pics' to see a random cool photo :3"));
 
 
@@ -237,11 +211,11 @@ function append(str){
 }
 
 function getPrefix(){
-    return '<span class=green>h7jiang@my-website</span>:<span class="blue">' + curFolder.path + '</span>$&nbsp;'
+    return '<span class=green>hjiang@my-website</span>:<span class="blue">' + curFolder.path + '</span>$&nbsp;'
 }
 
 function setHeader(){
-    header.innerHTML = 'h7jiang@my-website:&nbsp;' + curFolder.path + ''
+    header.innerHTML = 'hjiang@my-website:&nbsp;' + curFolder.path + ''
 }
 
 async function slowText(str){
@@ -262,19 +236,6 @@ async function startup(){
     await new Promise(r => setTimeout(r, 100));
     append("<span class='yellow'> Starting up... <\span><br><br>");
     await new Promise(r => setTimeout(r, 800));
-    // s = 
-    // "░█████╗░██████╗░████████╗██╗░░██╗██╗░░░██╗██████╗=" + 
-    // "██╔══██╗██╔══██╗╚══██╔══╝██║░░██║██║░░░██║██╔══██╗=" + 
-    // "███████║██████╔╝░░░██║░░░███████║██║░░░██║██████╔╝=" + 
-    // "██╔══██║██╔══██╗░░░██║░░░██╔══██║██║░░░██║██╔══██╗=" + 
-    // "██║░░██║██║░░██║░░░██║░░░██║░░██║╚██████╔╝██║░░██║=" + 
-    // "╚═╝░░╚═╝╚═╝░░╚═╝░░░╚═╝░░░╚═╝░░╚═╝░╚═════╝░╚═╝░░╚═╝=" + 
-    //     "██████╗░██████╗░██╗░██████╗░██╗░░██╗████████╗=" + 
-    //     "██╔══██╗██╔══██╗██║██╔════╝░██║░░██║╚══██╔══╝=" + 
-    //     "██████╦╝██████╔╝██║██║░░██╗░███████║░░░██║░░░=" + 
-    //     "██╔══██╗██╔══██╗██║██║░░╚██╗██╔══██║░░░██║░░░=" + 
-    //     "██████╦╝██║░░██║██║╚██████╔╝██║░░██║░░░██║░░░=" + 
-    //     "╚═════╝░╚═╝░░╚═╝╚═╝░╚═════╝░╚═╝░░╚═╝░░░╚═╝░░░=";
     s =
     "██╗░░██╗░█████╗░██████╗░██████╗░██╗░░░██╗=" +
     "██║░░██║██╔══██╗██╔══██╗██╔══██╗╚██╗░██╔╝=" +
@@ -290,25 +251,11 @@ async function startup(){
     "░╚════╝░╚═╝╚═╝░░╚═╝╚═╝░░╚═══╝░╚═════╝░░░░="; 
 
     if(window.innerWidth < 550){
-        // s = 
-        // "▄▀█ █▀█ ▀█▀ █░█ █░█ █▀█=" + 
-        // "█▀█ █▀▄ ░█░ █▀█ █▄█ █▀▄==" + 
-        // "█▄▄ █▀█ █ █▀▀ █░█ ▀█▀=" + 
-        // "█▄█ █▀▄ █ █▄█ █▀█ ░█░==";
         s = 
         "█░█░▄▀█░█▀█░█▀█░█▄█=" +
         "█▀█░█▀█░█▀▄░█▀▄░░█░=" +
         "░░█░█░▄▀█░█▄░█░█▀▀░=" +
         "█▄█░█░█▀█░█░▀█░█▄█░=";
-
-        // " _ _   _   ___ ___ __ __=" +
-        // "| U | / \ | o \ o \\ V /=" +
-        // "|   || o ||   /   / \ /=" + 
-        // "|_n_||_n_||_|\\_|\\ |_|=" +
-        // "_  _   _   _  _  __=" +
-        // "| || | / \ | \| |/ _|=" +
-        // "n_| || || o || \\ ( |_n=" +
-        // "\__/ |_||_n_||_|\_|\__/=";
     }
 
     await slowText(s);
