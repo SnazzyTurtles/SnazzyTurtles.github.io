@@ -337,7 +337,7 @@ function processCommand(str){
         window.open("images/pics" + r + ".jpg", '_blank');
     }
     else if(arr[0] == "game"){
-        window.open("zetamac/app.html", '_blank');
+        window.open("src/zetamac/app.html", '_blank');
     }
     else if(arr[0] == "help"){
         var s = "This website is based on the linux terminal. There are four simple commands:<br>" +
