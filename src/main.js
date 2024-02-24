@@ -155,36 +155,36 @@ var about = new Folder("about"); root.addFolder(about);
         "Technologies: Git, Node.js, .NET, HTTP, SQL, VS<br>" + 
         "Relevant Coursework: Data Structures and Algorithms, Functional Programming, Data Abstraction, Computer Organization and Design, Logic and Computation, Object-Oriented Programming, Linear Algebra, Data and Statistical Analysis, Combinatorial Optimization, Sequential Programming, Numerical Computation, Stochastic Processes"));
     var hobbies = new Folder("hobbies"); about.addFolder(hobbies);
-        hobbies.addFile(new File("music", "I've often said that if I wasn't into tech, then music would be my top career choice.<br><br>" + 
-            "In past years, I've been really getting into music theory and mixing. I've uploaded a bunch of covers on my " + 
-            "primary instagram <a href=https://www.instagram.com/artb_64 target=_blank>@artb_64</a>, and also hundreds of piano covers where I " + 
-            "play by ear on my second account <a href=https://www.instagram.com/c_major._/ target=_blank>@c_major._</a>.<br><br>" + 
-            "I primarily play piano; I completed RCM 10, but I mainly play pop songs these days. I also played a variety of woodwind instruments in middle school."));
-        hobbies.addFile(new File("sports", "I play basketball, ultimate frisbee, and I swim. I've also started bouldering recently, and I try to go every week. Hit me up if you wanna send some sends :)"));
-        hobbies.addFile(new File("math", "I was a huge math nerd in high school (and still am :D). I particularly enjoyed writing math contests, " + 
-            "and often ranked in Canada's top 30. I am a two-time CMO qualifier and recently achieved top 200 in the Putnam.<br><br>" + 
-            "I enjoy any logical problems/puzzles; shoot me with your best shot >:)"));
-var projects = new Folder("projects"); root.addFolder(projects);
-    projects.addFile(new File("multipiano", "A multiplayer piano! Built with Node.js + Socket.<br>" +
-        "Try it out: <a href=https://multipiano.glitch.me/ target=_blank>https://multipiano.glitch.me/<\a> (might take a sec to load)<br>" + 
-        "Source: <a href=https://github.com/arthurbright/Multipiano target=_blank>https://github.com/arthurbright/Multipiano<\a>"));
-    projects.addFile(new File("spectral", "Neural network that identifies musical chords from audio samples using spectrogram (WIP). Built with Python + Tensorflow/Keras.<br>" +
-        "Source: <a href=https://github.com/arthurbright/Spectral target=_blank>https://github.com/arthurbright/Spectral<\a>"));
-    projects.addFile(new File("hotspot", "Crowd-sourced web app that tracks COVID-19 spread on a heatmap. Made with Node.js + React + MongoDB + Google Maps. Winner at Garuda Hacks 2020<br>" + 
-        "Source: <a href=https://github.com/thesilican/garudahacks-2020 target=_blank>https://github.com/thesilican/garudahacks-2020<\a>"));
-    projects.addFile(new File("sbotify", "Music downloader, like Spotify, but for free! Built with Node.js.<br>" + 
-        "Source: <a href=https://github.com/arthurbright/Soundtrack-downloader target=_blank>https://github.com/arthurbright/Soundtrack-downloader<\a>"));
-    projects.addFile(new File("manhunt", "A web app for friends to play manhunt! Run around and hide on campus. Built with Node.js + Socket<br>" + 
-        "Try it out: <a href=https://manhunt.glitch.me/ target=_blank>https://manhunt.glitch.me/<\a> (might take a sec to load)<br>" + 
-        "Source: <a href=https://github.com/arthurbright/Manhunt target=_blank>https://github.com/arthurbright/Manhunt<\a>"));
-    projects.addFile(new File("my-website", "This website! Source: <a href=https://github.com/arthurbright/arthurbright.github.io target=_blank>https://github.com/arthurbright/arthurbright.github.io<\a>"));
-    projects.addFile(new File("remind", "A discord bot for scheduling and recieving reminders.<br>" + 
-        "Source: <a href=https://github.com/arthurbright/Re-mind target=_blank>https://github.com/arthurbright/Re-mind<\a>"));
-    projects.addFile(new File("graph.io", "A graph visualizer! Draw a graph and run some common graph algorithms on it. Built with Unity.<br>" + 
-        "Try it out: <a href=https://simmer.io/@afur/graph-io target=_blank>https://simmer.io/@afur/graph-io<\a> (might take a sec to load)<br>" + 
-        "Source: <a href=https://github.com/arthurbright/Graph.io target=_blank>https://github.com/arthurbright/Graph.io<\a>"));
-    projects.addFile(new File("portal2d", "A 2D version of the popular game Portal. Comes with 15 challenging levels. Built with Unity.<br>" + 
-        "Game files: <a href=https://github.com/arthurbright/Portal2D target=_blank>https://github.com/arthurbright/Portal2D<\a>"));
+        // hobbies.addFile(new File("music", "I've often said that if I wasn't into tech, then music would be my top career choice.<br><br>" + 
+        //     "In past years, I've been really getting into music theory and mixing. I've uploaded a bunch of covers on my " + 
+        //     "primary instagram <a href=https://www.instagram.com/artb_64 target=_blank>@artb_64</a>, and also hundreds of piano covers where I " + 
+        //     "play by ear on my second account <a href=https://www.instagram.com/c_major._/ target=_blank>@c_major._</a>.<br><br>" + 
+        //     "I primarily play piano; I completed RCM 10, but I mainly play pop songs these days. I also played a variety of woodwind instruments in middle school."));
+        hobbies.addFile(new File("poker", "NEED TO CHANGE THIS"));
+        hobbies.addFile(new File("sports", "NEED TO CHANGE THIS"));
+        hobbies.addFile(new File("speedcubing", "NEED TO CHANGE THIS"));
+        hobbies.addFile(new File("photography", "NEED TO CHANGE THIS"));
+// var projects = new Folder("projects"); root.addFolder(projects);
+//     projects.addFile(new File("multipiano", "A multiplayer piano! Built with Node.js + Socket.<br>" +
+//         "Try it out: <a href=https://multipiano.glitch.me/ target=_blank>https://multipiano.glitch.me/<\a> (might take a sec to load)<br>" + 
+//         "Source: <a href=https://github.com/arthurbright/Multipiano target=_blank>https://github.com/arthurbright/Multipiano<\a>"));
+//     projects.addFile(new File("spectral", "Neural network that identifies musical chords from audio samples using spectrogram (WIP). Built with Python + Tensorflow/Keras.<br>" +
+//         "Source: <a href=https://github.com/arthurbright/Spectral target=_blank>https://github.com/arthurbright/Spectral<\a>"));
+//     projects.addFile(new File("hotspot", "Crowd-sourced web app that tracks COVID-19 spread on a heatmap. Made with Node.js + React + MongoDB + Google Maps. Winner at Garuda Hacks 2020<br>" + 
+//         "Source: <a href=https://github.com/thesilican/garudahacks-2020 target=_blank>https://github.com/thesilican/garudahacks-2020<\a>"));
+//     projects.addFile(new File("sbotify", "Music downloader, like Spotify, but for free! Built with Node.js.<br>" + 
+//         "Source: <a href=https://github.com/arthurbright/Soundtrack-downloader target=_blank>https://github.com/arthurbright/Soundtrack-downloader<\a>"));
+//     projects.addFile(new File("manhunt", "A web app for friends to play manhunt! Run around and hide on campus. Built with Node.js + Socket<br>" + 
+//         "Try it out: <a href=https://manhunt.glitch.me/ target=_blank>https://manhunt.glitch.me/<\a> (might take a sec to load)<br>" + 
+//         "Source: <a href=https://github.com/arthurbright/Manhunt target=_blank>https://github.com/arthurbright/Manhunt<\a>"));
+//     projects.addFile(new File("my-website", "This website! Source: <a href=https://github.com/arthurbright/arthurbright.github.io target=_blank>https://github.com/arthurbright/arthurbright.github.io<\a>"));
+//     projects.addFile(new File("remind", "A discord bot for scheduling and recieving reminders.<br>" + 
+//         "Source: <a href=https://github.com/arthurbright/Re-mind target=_blank>https://github.com/arthurbright/Re-mind<\a>"));
+//     projects.addFile(new File("graph.io", "A graph visualizer! Draw a graph and run some common graph algorithms on it. Built with Unity.<br>" + 
+//         "Try it out: <a href=https://simmer.io/@afur/graph-io target=_blank>https://simmer.io/@afur/graph-io<\a> (might take a sec to load)<br>" + 
+//         "Source: <a href=https://github.com/arthurbright/Graph.io target=_blank>https://github.com/arthurbright/Graph.io<\a>"));
+//     projects.addFile(new File("portal2d", "A 2D version of the popular game Portal. Comes with 15 challenging levels. Built with Unity.<br>" + 
+//         "Game files: <a href=https://github.com/arthurbright/Portal2D target=_blank>https://github.com/arthurbright/Portal2D<\a>"));
 var experience = new Folder("experience"); root.addFolder(experience);
     experience.addFile(new File("2023-bloomberg", 
         "Bloomberg LP: Software Engineer || Aug 2023 - Dec 2023<br>" + 
@@ -200,6 +200,7 @@ var experience = new Folder("experience"); root.addFolder(experience);
         "- Developed a robust HTTP client in .NET for communicating with Amazon S3 cloud storage<br>" + 
         "- Optimized PostgreSQL connections by strategically pruning idle connections, improving performance tenfold"));
 root.addFile(new File("RESUME", ""));
+//var credits = new File("credits", "Website design and concept my <a href=https://github.com/arthurbright/arthurbright.github.io target=_blank>Arthur Bright</a>.<br>");
 
 var secret = new Folder("secret"); root.addFolder(secret);
 for(let i = 2; i < 2; i ++){
@@ -207,7 +208,7 @@ for(let i = 2; i < 2; i ++){
     secret.addFolder(s);
     secret = s;
 }
-secret.addFile(new File("top-secret.txt", "THERE ARE INFINITELY MANY TWIN PRIMES<br>Type 'piano' to play a piano.<br>Also, type 'cats' to see a random picture of my cats, Lulu and Percy :3"));
+secret.addFile(new File("top-secret.txt", "Type 'pics' to see a random cool photo :3"));
 
 
 
@@ -218,11 +219,11 @@ function append(str){
 }
 
 function getPrefix(){
-    return '<span class=green>a2bright@my-website</span>:<span class="blue">' + curFolder.path + '</span>$&nbsp;'
+    return '<span class=green>h7jiang@my-website</span>:<span class="blue">' + curFolder.path + '</span>$&nbsp;'
 }
 
 function setHeader(){
-    header.innerHTML = 'a2bright@my-website:&nbsp;' + curFolder.path + ''
+    header.innerHTML = 'h7jiang@my-website:&nbsp;' + curFolder.path + ''
 }
 
 async function slowText(str){
@@ -243,26 +244,30 @@ async function startup(){
     await new Promise(r => setTimeout(r, 100));
     append("<span class='yellow'> Starting up... <\span><br><br>");
     await new Promise(r => setTimeout(r, 800));
+    // s = 
+    // "░█████╗░██████╗░████████╗██╗░░██╗██╗░░░██╗██████╗=" + 
+    // "██╔══██╗██╔══██╗╚══██╔══╝██║░░██║██║░░░██║██╔══██╗=" + 
+    // "███████║██████╔╝░░░██║░░░███████║██║░░░██║██████╔╝=" + 
+    // "██╔══██║██╔══██╗░░░██║░░░██╔══██║██║░░░██║██╔══██╗=" + 
+    // "██║░░██║██║░░██║░░░██║░░░██║░░██║╚██████╔╝██║░░██║=" + 
+    // "╚═╝░░╚═╝╚═╝░░╚═╝░░░╚═╝░░░╚═╝░░╚═╝░╚═════╝░╚═╝░░╚═╝=" + 
+    //     "██████╗░██████╗░██╗░██████╗░██╗░░██╗████████╗=" + 
+    //     "██╔══██╗██╔══██╗██║██╔════╝░██║░░██║╚══██╔══╝=" + 
+    //     "██████╦╝██████╔╝██║██║░░██╗░███████║░░░██║░░░=" + 
+    //     "██╔══██╗██╔══██╗██║██║░░╚██╗██╔══██║░░░██║░░░=" + 
+    //     "██████╦╝██║░░██║██║╚██████╔╝██║░░██║░░░██║░░░=" + 
+    //     "╚═════╝░╚═╝░░╚═╝╚═╝░╚═════╝░╚═╝░░╚═╝░░░╚═╝░░░=";
     s = 
-    "░█████╗░██████╗░████████╗██╗░░██╗██╗░░░██╗██████╗=" + 
-    "██╔══██╗██╔══██╗╚══██╔══╝██║░░██║██║░░░██║██╔══██╗=" + 
-    "███████║██████╔╝░░░██║░░░███████║██║░░░██║██████╔╝=" + 
-    "██╔══██║██╔══██╗░░░██║░░░██╔══██║██║░░░██║██╔══██╗=" + 
-    "██║░░██║██║░░██║░░░██║░░░██║░░██║╚██████╔╝██║░░██║=" + 
-    "╚═╝░░╚═╝╚═╝░░╚═╝░░░╚═╝░░░╚═╝░░╚═╝░╚═════╝░╚═╝░░╚═╝=" + 
-        "██████╗░██████╗░██╗░██████╗░██╗░░██╗████████╗=" + 
-        "██╔══██╗██╔══██╗██║██╔════╝░██║░░██║╚══██╔══╝=" + 
-        "██████╦╝██████╔╝██║██║░░██╗░███████║░░░██║░░░=" + 
-        "██╔══██╗██╔══██╗██║██║░░╚██╗██╔══██║░░░██║░░░=" + 
-        "██████╦╝██║░░██║██║╚██████╔╝██║░░██║░░░██║░░░=" + 
-        "╚═════╝░╚═╝░░╚═╝╚═╝░╚═════╝░╚═╝░░╚═╝░░░╚═╝░░░=";
+    "NEED TO FINISH";
 
     if(window.innerWidth < 550){
+        // s = 
+        // "▄▀█ █▀█ ▀█▀ █░█ █░█ █▀█=" + 
+        // "█▀█ █▀▄ ░█░ █▀█ █▄█ █▀▄==" + 
+        // "█▄▄ █▀█ █ █▀▀ █░█ ▀█▀=" + 
+        // "█▄█ █▀▄ █ █▄█ █▀█ ░█░==";
         s = 
-        "▄▀█ █▀█ ▀█▀ █░█ █░█ █▀█=" + 
-        "█▀█ █▀▄ ░█░ █▀█ █▄█ █▀▄==" + 
-        "█▄▄ █▀█ █ █▀▀ █░█ ▀█▀=" + 
-        "█▄█ █▀▄ █ █▄█ █▀█ ░█░==";
+        "NEED TO FINISH";
     }
 
     await slowText(s);
@@ -326,13 +331,9 @@ function processCommand(str){
             error('Usage: cat &lt;file-path&gt;');
         }
     }
-    else if(arr[0] == "cats"){
-        let r = Math.floor(Math.random() * 11);
-        window.open("images/cats" + r + ".jpg", '_blank');
-    }
-    else if(arr[0] == "piano"){
-        let r = Math.floor(Math.random() * 11);
-        window.open("piano/room.html", '_blank');
+    else if(arr[0] == "pics"){
+        let r = Math.floor(Math.random() * 12);
+        window.open("images/pics" + r + ".jpg", '_blank');
     }
     else if(arr[0] == "help"){
         var s = "This website is based on the linux terminal. There are four simple commands:<br>" +
