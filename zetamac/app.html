@@ -12,8 +12,8 @@
   <div class="banner">
     <p style="font-size: 16px;" class="start">Mental Math Game</p>
     <input type="text" class="answer">
+    <div class="problem"></div>
   </div>
-  <div class="problem"></div>
   <span class="left">Seconds left: 10</span>
   <span class="correct">Score: 0</span>
 </div>
@@ -40,10 +40,10 @@
     });
 
     $('#game .problem').css({
-      'position': 'absolute',
-      'top': '40%',
+      'position': 'relative',
+      'top': '90%',
       'left': '50%',
-      'transform': 'translate(-50%, -20%)',
+      'transform': 'translate(-50%, 10%)',
       'font-size': '48px'
     });
   });
