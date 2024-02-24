@@ -62,7 +62,7 @@ class File{
     }
 
     getContent(){
-        if(this.name == "RESUME"){
+        if(this.name == "resume"){
             window.open("Harry Jiang Resume.pdf", '_blank');
             return undefined;
         }
@@ -146,17 +146,17 @@ var about = new Folder("about"); root.addFolder(about);
         "Email: <a href=mailto:h262jian@uwaterloo.ca target=_blank>h262jian@uwaterloo.ca</a><br>" + 
         "LinkedIn: <a href=https://www.linkedin.com/in/harryjiang7/ target=_blank>https://www.linkedin.com/in/harryjiang7/</a><br>" + 
         "Github: <a href=https://github.com/SnazzyTurtles target=_blank>https://github.com/SnazzyTurtles</a><br>" + 
-        "Phone: 604-880-9303"));
+        "Phone: 604-880-9303<br>"));
     about.addFile(new File("education", 
         "University of Waterloo (2021-2026)<br>- Bachelor of Statistics, Dual Minor in Combinatorics & Optimization and Economics<br>" + 
-        "- Ronald G. Scoin/Rene Descartes National Scholarship ($18,000)"));
+        "- Ronald G. Scoin/Rene Descartes National Scholarship ($18,000)<br>"));
     about.addFile(new File("skills", 
         "Languages: Python, R, Java, C, C++, C, JavaScript, Racket, HTML/CSS, SQL<br>" + 
         "Technologies: Git, Node.js, .NET, HTTP, SQL, VS<br>" + 
         "Relevant Coursework: Data Structures and Algorithms, Functional Programming, Data Abstraction, <br>" +
         "Computer Organization and Design, Logic and Computation, Object-Oriented Programming, Linear Algebra, <br>" +
         "Data and Statistical Analysis, Combinatorial Optimization, Sequential Programming, Numerical Computation, <br>" +
-        "Stochastic Processes"));
+        "Stochastic Processes<br>"));
     var hobbies = new Folder("hobbies"); about.addFolder(hobbies);
         // hobbies.addFile(new File("music", "I've often said that if I wasn't into tech, then music would be my top career choice.<br><br>" + 
         //     "In past years, I've been really getting into music theory and mixing. I've uploaded a bunch of covers on my " + 
@@ -172,13 +172,13 @@ var experience = new Folder("experience"); root.addFolder(experience);
         "Jane Street Capital: Quantitative Trader || May 2024 - August 2024<br>" + 
         "- Will be attending Jane Street’s summer internship program in New York City as a Quantitative Trader;<br>" +
         "learning about financial tools and theory, participating in frequent mock trading games, shadowing full-time<br>" + 
-        "traders, and working closely with a trading desk to build out an end of term project to be used by the traders."));
+        "traders, and working closely with a trading desk to build out an end of term project to be used by the traders.<br>"));
     experience.addFile(new File("2023-accutar", 
         "Accutar Biotech: Software Researcher || September 2023 - Dec 2023<br>" + 
         "- Used a combination of computational geometry, supervised and semi-supervised machine learning, optimization<br>" +
         "theory, and combinatorial optimization to improve drug-protein interaction analysis improving efficiency<br>" +
         "by up to 30%.<br>" + 
-        "- Built an imperative performance benchmarking platform that helped reduce efficiency tests by over 50%"));
+        "- Built an imperative performance benchmarking platform that helped reduce efficiency tests by over 50%<br>"));
     experience.addFile(new File("2023-artemis", 
         "Artemis Data: Softare Engineer || Jan 2023 - Apr 2023<br>" + 
         "- Rigorously designed and implemented a novel back-end cataloging and syncing system for data organization and<br>" +
@@ -186,7 +186,7 @@ var experience = new Folder("experience"); root.addFolder(experience);
         "- Engaged directly with customers and investors as product manager; responsible for envisioning, planning,<br>" +
         "implementing, and marketing new features and changes to boost overall interest and quality of the product.<br>" +
         "- Built up a crucial full-stack admin support application for monitoring and managing customer organization<br>" +
-        "accounts, reducing new-customer onboarding time by over 75% and drastically decreasing user-support times."));
+        "accounts, reducing new-customer onboarding time by over 75% and drastically decreasing user-support times.<br>"));
     experience.addFile(new File("2022-moneris", 
         "Moneris Solutions: Data Engineer || May 2022 - Aug 2022<br>" + 
         "- Worked extensively with SQL databases, structuring and scripting to improve data efficiency and reliability.<br>" +
@@ -195,12 +195,12 @@ var experience = new Folder("experience"); root.addFolder(experience);
         "- Utilized specialized automation and data pipelining tools such as ActiveBatch and SSMS to run jobs and<br>" +
         "monitor daily performance metrics through improved auditing techniques.<br>" +
         "- Created several new scripts and methods for automating and streamlining future job creation and<br>" +
-        "implementation, greatly improved reliability, and improved human implementation efficiency by over 75%."));
-root.addFile(new File("RESUME", ""));
-root.addFile(new File("credits", "Website design and concept by Arthur Bright"));
+        "implementation, greatly improved reliability, and improved human implementation efficiency by over 75%.<br>"));
+root.addFile(new File("resume", ""));
+root.addFile(new File("credits", "Website design and concept by Arthur Bright: <a href=https://github.com/arthurbright/arthurbright.github.io target=_blank>source</a><br>"));
 
 var secret = new Folder("secret"); root.addFolder(secret);
-secret.addFile(new File("top-secret.txt", "Type 'pics' to see a random cool photo :3"));
+secret.addFile(new File("top-secret.txt", "Type 'pics' to see a random cool photo :3<br>"));
 
 
 
