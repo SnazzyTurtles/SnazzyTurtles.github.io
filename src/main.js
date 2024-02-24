@@ -169,14 +169,14 @@ var about = new Folder("about"); root.addFolder(about);
         "Kickboxing - trained throughout all of highschool, unfortunately never got to compete due to COVID<br>" +
         "Ultimate Frisbee - only started playing in university, but it's probably one of my favourite sports today<br>" +
         "Dodgeball - playing casually but as team captain for an intramural team in university<br>" +
-        "Badminton - played for 2 years on my highschool team, and continute to play recreationally today"));
+        "Badminton - played for 2 years on my highschool team, and continue to play recreationally today"));
         hobbies.addFile(new File("speedcubing", "I started solving Rubik's cubes back in 2009, and while I was originally just a casual solver, over the<br>" +
         "years I've become more involved on the competitive side of things, having competed in 9 competitions to date.<br>" +
         "My (unofficial) personal bests for my main events are:<br>" +
         "3x3: 6.28 single, 8.77 Ao5<br>" +
         "4x4: 27.05 single, 32.29 Ao5<br>" +
-        "5x5: 59.4 single, 1:04.14 Ao5<b>"));
-        hobbies.addFile(new File("photography", "While I always loved taking photos, I was able to pick up a camera at the start of univerisy<br>" +
+        "5x5: 59.40 single, 1:04.14 Ao5<b>"));
+        hobbies.addFile(new File("photography", "While I always loved taking photos, I was able to pick up a camera at the start of university<br>" +
         "and I've been pursuing casual landscape photography since. You can find some of my best works hidden in this<br>" +
         "website or check me out at <a href=https://www.instagram.com/snazzypictures7/ target=_blank>@SnazzyPictures7</a> (dedicated photography portfolio coming soon :3)."));
 var experience = new Folder("experience"); root.addFolder(experience);
@@ -192,7 +192,7 @@ var experience = new Folder("experience"); root.addFolder(experience);
         "by up to 30%.<br>" + 
         "- Built an imperative performance benchmarking platform that helped reduce efficiency tests by over 50%"));
     experience.addFile(new File("2023-artemis", 
-        "Artemis Data: Softare Engineer || Jan 2023 - Apr 2023<br>" + 
+        "Artemis Data: Software Engineer || Jan 2023 - Apr 2023<br>" + 
         "- Rigorously designed and implemented a novel back-end cataloging and syncing system for data organization and<br>" +
         "navigation. Reduced front-end user load times by over 99% and decreased back-end load by over 90%.<br>" + 
         "- Engaged directly with customers and investors as product manager; responsible for envisioning, planning,<br>" +
