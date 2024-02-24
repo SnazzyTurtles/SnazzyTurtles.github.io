@@ -186,28 +186,32 @@ var about = new Folder("about"); root.addFolder(about);
 //     projects.addFile(new File("portal2d", "A 2D version of the popular game Portal. Comes with 15 challenging levels. Built with Unity.<br>" + 
 //         "Game files: <a href=https://github.com/arthurbright/Portal2D target=_blank>https://github.com/arthurbright/Portal2D<\a>"));
 var experience = new Folder("experience"); root.addFolder(experience);
-    experience.addFile(new File("2023-bloomberg", 
-        "Bloomberg LP: Software Engineer || Aug 2023 - Dec 2023<br>" + 
-        "- Researched semantic graph storage and pathfinding performance<br>" + 
-        "- Developed service to cache and retrive ontology graph paths, greatly improving response time."));
-    experience.addFile(new File("2023-questrade", 
-        "Questrade: Softare Engineer || Jan 2023 - Apr 2023<br>" + 
-        "- Developed new API endpoints for a market data microservice using Nest.js, allowing users to make batch requests of security data<br>" + 
-        "- Implemented data preprocessing and safety checks to prevent microservice errors/outages<br>" + 
-        "- Identified and fixed 30+ production bugs in trading platform, including memory leaks"));
-    experience.addFile(new File("2022-imagine", 
-        "Imagine Communications: Backend Developer || May 2022 - Aug 2022<br>" + 
-        "- Developed a robust HTTP client in .NET for communicating with Amazon S3 cloud storage<br>" + 
-        "- Optimized PostgreSQL connections by strategically pruning idle connections, improving performance tenfold"));
+    experience.addFile(new File("2024-janestreet", 
+        "Jane Street Capital: Quantitative Trader || May 2024 - August 2024<br>" + 
+        "- Will be attending Jane Street’s summer internship program in New York City as a Quantitative Trader - learning about financial tools and theory, participating in frequent mock trading games, shadowing full-time traders, and working closely with a trading desk to build out an end of term project to be used by the traders."));
+    experience.addFile(new File("2023-accutar", 
+        "Accutar Biotech: Software Researcher || September 2023 - Dec 2023<br>" + 
+        "- Used a combination of computational geometry, supervised and semi-supervised machine learning, optimization theory, and combinatorial optimization to improve drug-protein interaction analysis improving efficiency by up to 30%.<br>" + 
+        "- Built an imperative performance benchmarking platform that helped reduce efficiency tests by over 50%"));
+    experience.addFile(new File("2023-artemis", 
+        "Artemis Data: Softare Engineer || Jan 2023 - Apr 2023<br>" + 
+        "- Rigorously designed and implemented a novel back-end cataloging and syncing system for data organization and navigation. Reduced front-end user load times by over 99% and decreased back-end load by over 90%.<br>" + 
+        "- Engaged directly with customers and investors as product manager; responsible for envisioning, planning, implementing, and marketing new features and changes to boost overall interest and quality of the product.<br>" +
+        "- Built up a crucial full-stack admin support application for monitoring and managing customer organization accounts, reducing new-customer onboarding time by over 75% and drastically decreasing user-support times."));
+    experience.addFile(new File("2022-moneris", 
+        "Moneris Solutions: Data Engineer || May 2022 - Aug 2022<br>" + 
+        "- Worked extensively with SQL databases, structuring and scripting to improve data efficiency and reliability. Have processes running on over 1 billion monthly data points, improving efficiency over previous systems by up to 90%.<br>" +
+        "- Utilized specialized automation and data pipelining tools such as ActiveBatch and SSMS to run jobs and monitor daily performance metrics through improved auditing techniques.<br>" +
+        "- Created several new scripts and methods for automating and streamlining future job creation and implementation, greatly improved reliability, and improved human implementation efficiency by over 75%."));
 root.addFile(new File("RESUME", ""));
 //var credits = new File("credits", "Website design and concept my <a href=https://github.com/arthurbright/arthurbright.github.io target=_blank>Arthur Bright</a>.<br>");
 
 var secret = new Folder("secret"); root.addFolder(secret);
-for(let i = 2; i < 2; i ++){
-    let s = new Folder("secret" + i.toString());
-    secret.addFolder(s);
-    secret = s;
-}
+// for(let i = 2; i < 2; i ++){
+//     let s = new Folder("secret" + i.toString());
+//     secret.addFolder(s);
+//     secret = s;
+// }
 secret.addFile(new File("top-secret.txt", "Type 'pics' to see a random cool photo :3"));
 
 
