@@ -78,7 +78,6 @@
       var cb = function cb(e) {
         var str_ans = '' + genned[1];
         if ($.trim($(this).val()) === str_ans) {
-          // || e.keyCode == 13
           var now = Date.now();
           correct_info.push([
             genned[0],
@@ -107,7 +106,6 @@
             answer.prop('disabled', true);
             clearInterval(timer);
   
-            // Wipe the screen and display the final score
             game.empty();
             var endBanner = $('<div class="banner end"></div>');
             endBanner.append('<p style="font-size: 36px;">Game Over!</p>');
