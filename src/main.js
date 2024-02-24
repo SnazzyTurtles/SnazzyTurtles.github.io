@@ -212,7 +212,8 @@ root.addFile(new File("resume", ""));
 root.addFile(new File("credits", "Website design and concept by Arthur Bright: <a href=https://github.com/arthurbright/arthurbright.github.io target=_blank>source</a>"));
 
 var secret = new Folder("secret"); root.addFolder(secret);
-secret.addFile(new File("top-secret.txt", "Type 'pics' to see a random cool photo :3"));
+secret.addFile(new File("top-secret.txt", "Type 'pics' to see a random cool photo :3<br>" +
+"or type 'game' to play a 'mental' arithmetic game!"));
 
 
 
