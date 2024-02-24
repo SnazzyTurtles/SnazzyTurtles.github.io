@@ -141,44 +141,56 @@ const previousCommands = [""];
 var commandIndex = 0;
 
 var about = new Folder("about"); root.addFolder(about);
-    about.addFile(new File("bio", "NEED TO CHANGE THIS"));
+    about.addFile(new File("bio", "Hi, my name is Harry! I'm a third year Statistics student at the University of Waterloo. <br>" +
+    "I'm passionate about data, technology, and finance, and I'm always looking for new opportunities to learn<br>" +
+    "and grow. Hope you enjoy my website! :3"));
     about.addFile(new File("contacts", 
         "Email: <a href=mailto:h262jian@uwaterloo.ca target=_blank>h262jian@uwaterloo.ca</a><br>" + 
         "LinkedIn: <a href=https://www.linkedin.com/in/harryjiang7/ target=_blank>https://www.linkedin.com/in/harryjiang7/</a><br>" + 
         "Github: <a href=https://github.com/SnazzyTurtles target=_blank>https://github.com/SnazzyTurtles</a><br>" + 
-        "Phone: 604-880-9303<br>"));
+        "Phone: 604-880-9303"));
     about.addFile(new File("education", 
         "University of Waterloo (2021-2026)<br>- Bachelor of Statistics, Dual Minor in Combinatorics & Optimization and Economics<br>" + 
-        "- Ronald G. Scoin/Rene Descartes National Scholarship ($18,000)<br>"));
+        "- Ronald G. Scoin/Rene Descartes National Scholarship ($18,000)"));
     about.addFile(new File("skills", 
         "Languages: Python, R, Java, C, C++, C, JavaScript, Racket, HTML/CSS, SQL<br>" + 
         "Technologies: Git, Node.js, .NET, HTTP, SQL, VS<br>" + 
         "Relevant Coursework: Data Structures and Algorithms, Functional Programming, Data Abstraction, <br>" +
         "Computer Organization and Design, Logic and Computation, Object-Oriented Programming, Linear Algebra, <br>" +
         "Data and Statistical Analysis, Combinatorial Optimization, Sequential Programming, Numerical Computation, <br>" +
-        "Stochastic Processes<br>"));
+        "Stochastic Processes"));
     var hobbies = new Folder("hobbies"); about.addFolder(hobbies);
-        // hobbies.addFile(new File("music", "I've often said that if I wasn't into tech, then music would be my top career choice.<br><br>" + 
-        //     "In past years, I've been really getting into music theory and mixing. I've uploaded a bunch of covers on my " + 
-        //     "primary instagram <a href=https://www.instagram.com/artb_64 target=_blank>@artb_64</a>, and also hundreds of piano covers where I " + 
-        //     "play by ear on my second account <a href=https://www.instagram.com/c_major._/ target=_blank>@c_major._</a>.<br><br>" + 
-        //     "I primarily play piano; I completed RCM 10, but I mainly play pop songs these days. I also played a variety of woodwind instruments in middle school."));
-        hobbies.addFile(new File("poker", "NEED TO CHANGE THIS"));
-        hobbies.addFile(new File("sports", "NEED TO CHANGE THIS"));
-        hobbies.addFile(new File("speedcubing", "NEED TO CHANGE THIS"));
-        hobbies.addFile(new File("photography", "NEED TO CHANGE THIS"));
+        hobbies.addFile(new File("poker", "I'm deeply interested in poker for both it's simplicity yet insanely high level of complexity.<br>" +
+        "I have been playing for quite a few years now, casually with friends, as a side hustle both online and<br>" +
+        "in-person, and in many competitive settings such as part of the Waterloo poker club."));
+        hobbies.addFile(new File("sports", "I've grown up playing almost every sport imaginable, with some notable ones being:<br>" +
+        "Hockey - for 13 years in both competitive (AAA) and recreational leagues, even being voted as team captain<br>" +
+        "Basketball - played for 6 years on a mix of rep and house teams, and continuing to play to this day<br>" +
+        "Kickboxing - trained throughout all of highschool, unfortunately never got to compete due to COVID<br>" +
+        "Ultimate Frisbee - only started playing in university, but it's probably one of my favourite sports today<br>" +
+        "Dodgeball - playing casually but as team captain for an intramural team in university<br>" +
+        "Badminton - played for 2 years on my highschool team, and continute to play recreationally today"));
+        hobbies.addFile(new File("speedcubing", "I started solving Rubik's cubes back in 2009, and while I was originally just a casual solver, over the<br>" +
+        "years I've become more involved on the competitive side of things, having competed in 9 competitions to date.<br>" +
+        "My (unofficial) personal bests for my main events are:<br>" +
+        "3x3: 6.28 single, 8.77 Ao5<br>" +
+        "4x4: 27.05 single, 32.29 Ao5<br>" +
+        "5x5: 59.4 single, 1:04.14 Ao5<b>"));
+        hobbies.addFile(new File("photography", "While I always loved taking photos, I was able to pick up a camera at the start of univerisy<br>" +
+        "and I've been pursuing casual landscape photography since. You can find some of my best works hidden in this<br>" +
+        "website or check me out at <a href=https://www.instagram.com/snazzypictures7/ target=_blank>@SnazzyPictures7</a> (dedicated photography portfolio coming soon :3)."));
 var experience = new Folder("experience"); root.addFolder(experience);
     experience.addFile(new File("2024-janestreet", 
         "Jane Street Capital: Quantitative Trader || May 2024 - August 2024<br>" + 
         "- Will be attending Jane Street’s summer internship program in New York City as a Quantitative Trader;<br>" +
         "learning about financial tools and theory, participating in frequent mock trading games, shadowing full-time<br>" + 
-        "traders, and working closely with a trading desk to build out an end of term project to be used by the traders.<br>"));
+        "traders, and working closely with a trading desk to build out an end of term project to be used by the traders."));
     experience.addFile(new File("2023-accutar", 
         "Accutar Biotech: Software Researcher || September 2023 - Dec 2023<br>" + 
         "- Used a combination of computational geometry, supervised and semi-supervised machine learning, optimization<br>" +
         "theory, and combinatorial optimization to improve drug-protein interaction analysis improving efficiency<br>" +
         "by up to 30%.<br>" + 
-        "- Built an imperative performance benchmarking platform that helped reduce efficiency tests by over 50%<br>"));
+        "- Built an imperative performance benchmarking platform that helped reduce efficiency tests by over 50%"));
     experience.addFile(new File("2023-artemis", 
         "Artemis Data: Softare Engineer || Jan 2023 - Apr 2023<br>" + 
         "- Rigorously designed and implemented a novel back-end cataloging and syncing system for data organization and<br>" +
@@ -186,7 +198,7 @@ var experience = new Folder("experience"); root.addFolder(experience);
         "- Engaged directly with customers and investors as product manager; responsible for envisioning, planning,<br>" +
         "implementing, and marketing new features and changes to boost overall interest and quality of the product.<br>" +
         "- Built up a crucial full-stack admin support application for monitoring and managing customer organization<br>" +
-        "accounts, reducing new-customer onboarding time by over 75% and drastically decreasing user-support times.<br>"));
+        "accounts, reducing new-customer onboarding time by over 75% and drastically decreasing user-support times."));
     experience.addFile(new File("2022-moneris", 
         "Moneris Solutions: Data Engineer || May 2022 - Aug 2022<br>" + 
         "- Worked extensively with SQL databases, structuring and scripting to improve data efficiency and reliability.<br>" +
@@ -195,12 +207,12 @@ var experience = new Folder("experience"); root.addFolder(experience);
         "- Utilized specialized automation and data pipelining tools such as ActiveBatch and SSMS to run jobs and<br>" +
         "monitor daily performance metrics through improved auditing techniques.<br>" +
         "- Created several new scripts and methods for automating and streamlining future job creation and<br>" +
-        "implementation, greatly improved reliability, and improved human implementation efficiency by over 75%.<br>"));
+        "implementation, greatly improved reliability, and improved human implementation efficiency by over 75%."));
 root.addFile(new File("resume", ""));
-root.addFile(new File("credits", "Website design and concept by Arthur Bright: <a href=https://github.com/arthurbright/arthurbright.github.io target=_blank>source</a><br>"));
+root.addFile(new File("credits", "Website design and concept by Arthur Bright: <a href=https://github.com/arthurbright/arthurbright.github.io target=_blank>source</a>"));
 
 var secret = new Folder("secret"); root.addFolder(secret);
-secret.addFile(new File("top-secret.txt", "Type 'pics' to see a random cool photo :3<br>"));
+secret.addFile(new File("top-secret.txt", "Type 'pics' to see a random cool photo :3"));
 
 
 
@@ -323,6 +335,9 @@ function processCommand(str){
         let r = Math.floor(Math.random() * 12);
         window.open("images/pics" + r + ".jpg", '_blank');
     }
+    // else if(arr[0] == "game"){
+    //     window.open("zetamac/app.html", '_blank');
+    // }
     else if(arr[0] == "help"){
         var s = "This website is based on the linux terminal. There are four simple commands:<br>" +
         "&nbsp;&nbsp;cat &lt;file-path&gt;: View the contents of a file.<br>" + 
