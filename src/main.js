@@ -197,7 +197,7 @@ var experience = new Folder("experience"); root.addFolder(experience);
         "- Created several new scripts and methods for automating and streamlining future job creation and<br>" +
         "implementation, greatly improved reliability, and improved human implementation efficiency by over 75%."));
 root.addFile(new File("RESUME", ""));
-var credits = new File("credits", "Website design and concept my <a href=https://github.com/arthurbright/arthurbright.github.io target=_blank>Arthur Bright</a>.<br>");
+root.addFile(new File("credits", "Website design and concept by <a href=https://github.com/arthurbright/arthurbright.github.io target=_blank>Arthur Bright</a>.<br>"));
 
 var secret = new Folder("secret"); root.addFolder(secret);
 secret.addFile(new File("top-secret.txt", "Type 'pics' to see a random cool photo :3"));
