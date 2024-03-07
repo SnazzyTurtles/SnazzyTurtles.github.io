@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Arithmetic Game</title>
+  <link rel="stylesheet" href="app.css">
+</head>
+<body>
+
+<div id="game">
+  <div class="banner">
+    <p style="font-size: 16px;" class="start">Mental Math Game</p>
+    <input type="text" class="answer">
+    <div class="problem"></div>
+  </div>
+  <span class="left">Seconds left: 10</span>
+  <span class="correct">Score: 0</span>
+</div>
+
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<script src="app.js"></script>
+
+<script>
+  $(document).ready(function() {
+    Arithmetic.init({
+      add: false,
+      sub: false,
+      mul: true,
+      div: true,
+      mul_left_min: 10000,
+      mul_left_max: 1000000,
+      mul_right_min: 10000,
+      mul_right_max: 1000000,
+      div_left_min: 10000,
+      div_left_max: 1000000,
+      div_right_min: 10000,
+      div_right_max: 1000000,
+      duration: 60
+    });
+
+    $('#game .problem').css({
+      'position': 'relative',
+      'top': '90%',
+      'left': '50%',
+      'transform': 'translate(-50%, 10%)',
+      'font-size': '48px'
+    });
+  });
+</script>
+
+</body>
+</html>
