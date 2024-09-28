@@ -175,7 +175,7 @@ var about = new Folder("about"); root.addFolder(about);
         "My (unofficial) personal bests for my main events are:<br>" +
         "3x3: 6.28 single, 8.77 Ao5<br>" +
         "4x4: 27.05 single, 32.29 Ao5<br>" +
-        "5x5: 59.40 single, 1:04.14 Ao5<b>"));
+        "5x5: 59.19 single, 1:04.14 Ao5<b>"));
         hobbies.addFile(new File("photography", "While I always loved taking photos, I was able to pick up a camera at the start of university<br>" +
         "and I've been pursuing casual landscape photography since. You can find some of my best works hidden in this<br>" +
         "website or check me out at <a href=https://www.instagram.com/snazzypictures7/ target=_blank>@SnazzyPictures7</a> (dedicated photography portfolio coming soon :3)."));
@@ -210,6 +210,7 @@ var experience = new Folder("experience"); root.addFolder(experience);
         "implementation, greatly improved reliability, and improved human implementation efficiency by over 75%."));
 root.addFile(new File("resume", ""));
 root.addFile(new File("credits", "Website design and concept by Arthur Bright: <a href=https://github.com/arthurbright/arthurbright.github.io target=_blank>source</a>"));
+// root.addFile(new File("linkedin", "LinkedIn: <a href=https://www.linkedin.com/in/harryjiang7/ target=_blank>https://www.linkedin.com/in/harryjiang7/</a>"));
 
 var secret = new Folder("secret"); root.addFolder(secret);
 secret.addFile(new File("top-secret.txt", "Type 'pics' to see a random cool photo :3<br>" +
