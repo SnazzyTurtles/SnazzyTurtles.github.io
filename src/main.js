@@ -343,6 +343,10 @@ function processCommand(str){
     else if(arr[0] == "mental"){
         window.open("hard/app.html", '_blank');
     }
+    else if(arr[0] == "rena"){
+        let r = Math.floor(Math.random() * 5);
+        window.open("images/rena" + r + ".jpg", '_blank');
+    }
     else if(arr[0] == "help"){
         var s = "This website is based on the linux terminal. There are four simple commands:<br>" +
         "&nbsp;&nbsp;cat &lt;file-path&gt;: View the contents of a file.<br>" + 
