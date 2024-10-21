@@ -133,6 +133,9 @@ const ENTER = 13;
 const UP = 38;
 const DOWN = 40;
 
+var rena = 0
+var pics = 0
+
 var ready = false;
 var root = new Folder("home");
 root.parent = root;
@@ -334,8 +337,8 @@ function processCommand(str){
         }
     }
     else if(arr[0] == "pics"){
-        let r = Math.floor(Math.random() * 11);
-        window.open("images/pics" + r + ".jpg", '_blank');
+        window.open("images/pics" + pics + ".jpg", '_blank');
+        pics = (pics + 1) % 11;
     }
     else if(arr[0] == "game"){
         window.open("easy/app.html", '_blank');
@@ -344,8 +347,8 @@ function processCommand(str){
         window.open("hard/app.html", '_blank');
     }
     else if(arr[0] == "rena"){
-        let r = Math.floor(Math.random() * 5);
-        window.open("images/rena" + r + ".jpg", '_blank');
+        window.open("images/rena" + rena + ".jpg", '_blank');
+        rena = (rena + 1) % 5;
     }
     else if(arr[0] == "help"){
         var s = "This website is based on the linux terminal. There are four simple commands:<br>" +
