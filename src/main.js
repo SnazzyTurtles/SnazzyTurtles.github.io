@@ -213,7 +213,6 @@ var experience = new Folder("experience"); root.addFolder(experience);
         "implementation, greatly improved reliability, and improved human implementation efficiency by over 75%."));
 root.addFile(new File("resume", ""));
 // root.addFile(new File("credits", "Website design and concept by Arthur Bright: <a href=https://github.com/arthurbright/arthurbright.github.io target=_blank>source</a>"));
-// this should be gone now
 // root.addFile(new File("linkedin", "LinkedIn: <a href=https://www.linkedin.com/in/harryjiang7/ target=_blank>https://www.linkedin.com/in/harryjiang7/</a>"));
 
 var secret = new Folder("secret"); root.addFolder(secret);
