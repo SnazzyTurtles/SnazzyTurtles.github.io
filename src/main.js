@@ -184,8 +184,8 @@ var about = new Folder("about"); root.addFolder(about);
         "website or check me out at <a href=https://www.instagram.com/snazzypictures7/ target=_blank>@SnazzyPictures7</a> (dedicated photography portfolio coming soon :3)."));
 var experience = new Folder("experience"); root.addFolder(experience);
     experience.addFile(new File("2025-x",
-        "X (Twitter): Data Science/Software Engineer || January 2025 - April 2025<br>" +
-        "- Will be joining the Core Product - Recommendations Team."));
+        "X (Twitter): Software Engineer || January 2025 - April 2025<br>" +
+        "- Will be joining the Core Product/Recommendations Team."));
     experience.addFile(new File("2024-janestreet", 
         "Jane Street Capital: Quantitative Trader || May 2024 - August 2024<br>" + 
         "- Participated in Jane Street’s intensive 11 week summer trading internship, building novel end-to-end research<br>" +
