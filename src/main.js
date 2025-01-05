@@ -188,10 +188,10 @@ var experience = new Folder("experience"); root.addFolder(experience);
         "- Will be joining the Core Product - Recommendations Team."));
     experience.addFile(new File("2024-janestreet", 
         "Jane Street Capital: Quantitative Trader || May 2024 - August 2024<br>" + 
-        "- Participated in Jane Street’s intensive 11 week summer trading internship, building novel end-to-end research <br>" +
-        "projects, frequently conducting mock trading exercises, shadowing full timer traders, and analyzing diverse <br>" + 
+        "- Participated in Jane Street’s intensive 11 week summer trading internship, building novel end-to-end research<br>" +
+        "projects, frequently conducting mock trading exercises, shadowing full timer traders, and analyzing diverse<br>" + 
         "financial markets." + 
-        "- Researched and built a model to predict unique variance on the options desk, as well as a model to forecast <br>" +
+        "- Researched and built a model to predict unique variance on the options desk, as well as a model to forecast<br>" +
         "hydroelectric generation on the commodities desk, both using pandas; additionally engaged in the mock trading elective."));
     experience.addFile(new File("2023-accutar", 
         "Accutar Biotech: Software Researcher || September 2023 - Dec 2023<br>" + 
