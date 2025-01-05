@@ -185,7 +185,7 @@ var about = new Folder("about"); root.addFolder(about);
 var experience = new Folder("experience"); root.addFolder(experience);
     experience.addFile(new File("2025-x",
         "X (Twitter): Data Science/Software Engineer || January 2025 - April 2025<br>" +
-        "- Will be joining the Core Product - Recommendations Team"));
+        "- Will be joining the Core Product - Recommendations Team."));
     experience.addFile(new File("2024-janestreet", 
         "Jane Street Capital: Quantitative Trader || May 2024 - August 2024<br>" + 
         "- Participated in Jane Street’s intensive 11 week summer trading internship, building novel end-to-end research <br>" +
