@@ -183,11 +183,16 @@ var about = new Folder("about"); root.addFolder(about);
         "and I've been pursuing casual landscape photography since. You can find some of my best works hidden in this<br>" +
         "website or check me out at <a href=https://www.instagram.com/snazzypictures7/ target=_blank>@SnazzyPictures7</a> (dedicated photography portfolio coming soon :3)."));
 var experience = new Folder("experience"); root.addFolder(experience);
+    experience.addFile(new File("2025-x",
+        "X (Twitter): Data Science/Software Engineer || January 2025 - April 2025<br>" +
+        "- Will be joining the Core Product - Recommendations Team"));
     experience.addFile(new File("2024-janestreet", 
         "Jane Street Capital: Quantitative Trader || May 2024 - August 2024<br>" + 
-        "- Will be attending Jane Street’s summer internship program in New York City as a Quantitative Trader;<br>" +
-        "learning about financial tools and theory, participating in frequent mock trading games, shadowing full-time<br>" + 
-        "traders, and working closely with a trading desk to build out an end of term project to be used by the traders."));
+        "- Participated in Jane Street’s intensive 11 week summer trading internship, building novel end-to-end research <br>" +
+        "projects, frequently conducting mock trading exercises, shadowing full timer traders, and analyzing diverse <br>" + 
+        "financial markets." + 
+        "- Researched and built a model to predict unique variance on the options desk, as well as a model to forecast <br>" +
+        "hydroelectric generation on the commodities desk, both using pandas; additionally engaged in the mock trading elective."));
     experience.addFile(new File("2023-accutar", 
         "Accutar Biotech: Software Researcher || September 2023 - Dec 2023<br>" + 
         "- Used a combination of computational geometry, supervised and semi-supervised machine learning, optimization<br>" +
