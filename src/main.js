@@ -185,8 +185,8 @@ var about = new Folder("about"); root.addFolder(about);
 var experience = new Folder("experience"); root.addFolder(experience);
     experience.addFile(new File("2025-xAI",
         "xAI (Fromerly X/Twitter): Machine Learning Researcher || January 2025 - April 2025<br>" +
-        "- Worked on the Core Product team, researching and building the Evergreen algorithm for recommending older videos.<br>" +
-        "- Systematically iterated and live A/B tested several novel approaches towards ranking weights and biases, while also<br>" +
+        "- Worked on the Core Product team, building the Evergreen algorithm for recommending older videos.<br>" +
+        "- Systematically iterated and A/B tested several novel approaches towards ranking weights and biases, while also<br>" +
         "leveraging Grok 3 to ultimately increase Evergreen engagement by 25%, affecting over 400m monthly active users."));
     experience.addFile(new File("2024-janestreet", 
         "Jane Street Capital: Quantitative Trader || May 2024 - August 2024<br>" + 
