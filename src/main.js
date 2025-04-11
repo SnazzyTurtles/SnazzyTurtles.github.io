@@ -183,9 +183,11 @@ var about = new Folder("about"); root.addFolder(about);
         "and I've been pursuing casual landscape photography since. You can find some of my best works hidden in this<br>" +
         "website or check me out at <a href=https://www.instagram.com/snazzypictures7/ target=_blank>@SnazzyPictures7</a> (dedicated photography portfolio coming soon :3)."));
 var experience = new Folder("experience"); root.addFolder(experience);
-    experience.addFile(new File("2025-x",
-        "X (Twitter): Software Engineer || January 2025 - April 2025<br>" +
-        "- Will be joining the Core Product/Recommendations Team."));
+    experience.addFile(new File("2025-xAI",
+        "xAI (Fromerly X/Twitter): Machine Learning Researcher || January 2025 - April 2025<br>" +
+        "- Worked on the Core Product team, researching and building the Evergreen algorithm for recommending older videos.<br>" +
+        "- Systematically iterated and live A/B tested several novel approaches towards ranking weights and biases, while also<br>" +
+        "leveraging Grok 3 to ultimately increase Evergreen engagement by 25%, affecting over 400m monthly active users."));
     experience.addFile(new File("2024-janestreet", 
         "Jane Street Capital: Quantitative Trader || May 2024 - August 2024<br>" + 
         "- Participated in Jane Street’s intensive 11 week summer trading internship, building novel end-to-end research<br>" +
