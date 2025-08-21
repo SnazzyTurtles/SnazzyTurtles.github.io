@@ -63,7 +63,7 @@ class File{
 
     getContent(){
         if(this.name == "resume"){
-            window.open("Harry Jiang Resume.pdf", '_blank');
+            window.open("Harry Jiang Resume (all 6 coops).pdf", '_blank');
             return undefined;
         }
         else{
@@ -133,7 +133,6 @@ const ENTER = 13;
 const UP = 38;
 const DOWN = 40;
 
-var rena = 0
 var pics = 0
 
 var ready = false;
@@ -183,6 +182,11 @@ var about = new Folder("about"); root.addFolder(about);
         "and I've been pursuing casual landscape photography since. You can find some of my best works hidden in this<br>" +
         "website or check me out at <a href=https://www.instagram.com/snazzypictures7/ target=_blank>@SnazzyPictures7</a> (dedicated photography portfolio coming soon :3)."));
 var experience = new Folder("experience"); root.addFolder(experience);
+    experience.addFile(new File("2025-janestreet",
+        "Jane Street Capital: Quantitative Trader || May 2025 - August 2025<br>" + 
+        "- Return-interned to Jane Street's intensive 11 week summer internship, sitting on the Fixed-Income desk.<br>" +
+        "- Researched and built out impact based signals for a variety of debt classes, passed relevant FINRA <br>" +
+        "exams (SIE, S7, S57), and spent extensive amounts of time watching and participating in live trading."));
     experience.addFile(new File("2025-xAI",
         "xAI (Fromerly X/Twitter): Machine Learning Researcher || January 2025 - April 2025<br>" +
         "- Worked on the Core Product team, building the Evergreen algorithm for recommending older videos.<br>" +
@@ -352,10 +356,6 @@ function processCommand(str){
     }
     else if(arr[0] == "mental"){
         window.open("hard/app.html", '_blank');
-    }
-    else if(arr[0] == "rena"){
-        window.open("images/rena" + rena + ".jpg", '_blank');
-        rena = (rena + 1) % 5;
     }
     else if(arr[0] == "help"){
         var s = "This website is based on the linux terminal. There are four simple commands:<br>" +
