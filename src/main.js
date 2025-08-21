@@ -63,7 +63,7 @@ class File{
 
     getContent(){
         if(this.name == "resume"){
-            window.open("Harry Jiang Resume.pdf", '_blank');
+            window.open("Harry Jiang Resume (all 6 coops).pdf", '_blank');
             return undefined;
         }
         else{
@@ -133,7 +133,6 @@ const ENTER = 13;
 const UP = 38;
 const DOWN = 40;
 
-var rena = 0
 var pics = 0
 
 var ready = false;
@@ -183,11 +182,23 @@ var about = new Folder("about"); root.addFolder(about);
         "and I've been pursuing casual landscape photography since. You can find some of my best works hidden in this<br>" +
         "website or check me out at <a href=https://www.instagram.com/snazzypictures7/ target=_blank>@SnazzyPictures7</a> (dedicated photography portfolio coming soon :3)."));
 var experience = new Folder("experience"); root.addFolder(experience);
+    experience.addFile(new File("2025-janestreet",
+        "Jane Street Capital: Quantitative Trader || May 2025 - August 2025<br>" + 
+        "- Return-interned to Jane Street's intensive 11 week summer internship, sitting on the Fixed-Income desk.<br>" +
+        "- Researched and built out impact based signals for a variety of debt classes, passed relevant FINRA <br>" +
+        "exams (SIE, S7, S57), and spent extensive amounts of time watching and participating in live trading."));
+    experience.addFile(new File("2025-xAI",
+        "xAI (Fromerly X/Twitter): Machine Learning Researcher || January 2025 - April 2025<br>" +
+        "- Worked on the Core Product team, building the Evergreen algorithm for recommending older videos.<br>" +
+        "- Systematically iterated and A/B tested several novel approaches towards ranking weights and biases, while also<br>" +
+        "leveraging Grok 3 to ultimately increase Evergreen engagement by 25%, affecting over 400m monthly active users."));
     experience.addFile(new File("2024-janestreet", 
         "Jane Street Capital: Quantitative Trader || May 2024 - August 2024<br>" + 
-        "- Will be attending Jane Street’s summer internship program in New York City as a Quantitative Trader;<br>" +
-        "learning about financial tools and theory, participating in frequent mock trading games, shadowing full-time<br>" + 
-        "traders, and working closely with a trading desk to build out an end of term project to be used by the traders."));
+        "- Participated in Jane Street’s intensive 11 week summer trading internship, building novel end-to-end research<br>" +
+        "projects, frequently conducting mock trading exercises, shadowing full timer traders, and analyzing diverse<br>" + 
+        "financial markets.<br>" + 
+        "- Researched and built a model to predict unique variance on the options desk, as well as a model to forecast<br>" +
+        "hydroelectric generation on the commodities desk, both using pandas; also took the mock trading elective."));
     experience.addFile(new File("2023-accutar", 
         "Accutar Biotech: Software Researcher || September 2023 - Dec 2023<br>" + 
         "- Used a combination of computational geometry, supervised and semi-supervised machine learning, optimization<br>" +
@@ -346,10 +357,6 @@ function processCommand(str){
     else if(arr[0] == "mental"){
         window.open("hard/app.html", '_blank');
     }
-    else if(arr[0] == "rena"){
-        window.open("images/rena" + rena + ".jpg", '_blank');
-        rena = (rena + 1) % 5;
-    }
     else if(arr[0] == "help"){
         var s = "This website is based on the linux terminal. There are four simple commands:<br>" +
         "&nbsp;&nbsp;cat &lt;file-path&gt;: View the contents of a file.<br>" + 
@@ -413,4 +420,3 @@ cons.onkeydown = e => {
         e.preventDefault();
     }
 };
-
