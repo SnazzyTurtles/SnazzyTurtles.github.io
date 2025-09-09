@@ -143,7 +143,7 @@ const previousCommands = [""];
 var commandIndex = 0;
 
 var about = new Folder("about"); root.addFolder(about);
-    about.addFile(new File("bio", "Hi, my name is Harry! I'm a third year Statistics student at the University of Waterloo. <br>" +
+    about.addFile(new File("bio", "Hi, my name is Harry! I'm a fifth year Statistics student at the University of Waterloo. <br>" +
     "I'm passionate about data, technology, and finance, and I'm always looking for new opportunities to learn<br>" +
     "and grow. Hope you enjoy my website! :3"));
     about.addFile(new File("contacts", 
