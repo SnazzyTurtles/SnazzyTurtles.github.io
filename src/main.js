@@ -152,7 +152,7 @@ var about = new Folder("about"); root.addFolder(about);
         "Github: <a href=https://github.com/SnazzyTurtles target=_blank>https://github.com/SnazzyTurtles</a><br>" + 
         "Phone: 604-880-9303"));
     about.addFile(new File("education", 
-        "University of Waterloo (2021-2026)<br>- Bachelor of Statistics, Dual Minor in Combinatorics & Optimization and Economics<br>" + 
+        "University of Waterloo (2021-2026)<br>- Bachelor of Statistics, Dual Minor in Combinatorics & Optimization and Computer Science<br>" + 
         "- Ronald G. Scoin/Rene Descartes National Scholarship ($18,000)"));
     about.addFile(new File("skills", 
         "Languages: Python, R, Java, C, C++, C, JavaScript, Racket, HTML/CSS, SQL<br>" + 
@@ -176,8 +176,8 @@ var about = new Folder("about"); root.addFolder(about);
         "years I've become more involved on the competitive side of things, having competed in 9 competitions to date.<br>" +
         "My (unofficial) personal bests for my main events are:<br>" +
         "3x3: 6.28 single, 8.77 Ao5<br>" +
-        "4x4: 27.05 single, 32.29 Ao5<br>" +
-        "5x5: 59.19 single, 1:04.14 Ao5<b>"));
+        "4x4: 27.05 single, 32.24 Ao5<br>" +
+        "5x5: 53.85 single, 1:00.94 Ao5<b>"));
         hobbies.addFile(new File("photography", "While I always loved taking photos, I was able to pick up a camera at the start of university<br>" +
         "and I've been pursuing casual landscape photography since. You can find some of my best works hidden in this<br>" +
         "website or check me out at <a href=https://www.instagram.com/snazzypictures7/ target=_blank>@SnazzyPictures7</a> (dedicated photography portfolio coming soon :3)."));
