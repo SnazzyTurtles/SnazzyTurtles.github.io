@@ -145,35 +145,68 @@ var commandIndex = 0;
 var about = new Folder("about"); root.addFolder(about);
     about.addFile(new File("bio", "Hi, my name is Harry! I'm a fifth year Statistics student at the University of Waterloo. I'm passionate about data, technology, and finance, and I'm always looking for new opportunities to learn and grow. Hope you enjoy my website! :3"));
     about.addFile(new File("contacts", 
-        "Email: <a href=mailto:h262jian@uwaterloo.ca target=_blank>h262jian@uwaterloo.ca</a> LinkedIn: <a href=https://www.linkedin.com/in/harryjiang7/ target=_blank>https://www.linkedin.com/in/harryjiang7/</a> Github: <a href=https://github.com/SnazzyTurtles target=_blank>https://github.com/SnazzyTurtles</a> Phone: 604-880-9303"));
+        "Email: <a href=mailto:h262jian@uwaterloo.ca target=_blank>h262jian@uwaterloo.ca</a><br>" + 
+        "LinkedIn: <a href=https://www.linkedin.com/in/harryjiang7/ target=_blank>https://www.linkedin.com/in/harryjiang7/</a><br>" + 
+        "Github: <a href=https://github.com/SnazzyTurtles target=_blank>https://github.com/SnazzyTurtles</a><br>" + 
+        "Phone: 604-880-9303"));
     about.addFile(new File("education", 
-        "University of Waterloo (2021-2026) - Bachelor of Statistics, Dual Minor in Combinatorics & Optimization and Computer Science - Ronald G. Scoin/Rene Descartes National Scholarship ($18,000)"));
+        "University of Waterloo (2021-2026)<br>- Bachelor of Statistics, Dual Minor in Combinatorics & Optimization and Computer Science<br>" + 
+        "- Ronald G. Scoin/Rene Descartes National Scholarship ($18,000)"));
     about.addFile(new File("skills", 
-        "Languages: Python, R, Java, C, C++, C, JavaScript, Racket, HTML/CSS, SQL Technologies: Git, Node.js, .NET, HTTP, SQL, VS Relevant Coursework: Data Structures and Algorithms, Functional Programming, Data Abstraction, Computer Organization and Design, Logic and Computation, Object-Oriented Programming, Linear Algebra, Data and Statistical Analysis, Combinatorial Optimization, Sequential Programming, Numerical Computation, Stochastic Processes"));
+        "Languages: Python, R, Java, C, C++, C, JavaScript, Racket, HTML/CSS, SQL<br>" + 
+        "Technologies: Git, Node.js, .NET, HTTP, SQL, VS<br>" + 
+        "Relevant Coursework: Data Structures and Algorithms, Functional Programming, Data Abstraction, <br>" +
+        "Computer Organization and Design, Logic and Computation, Object-Oriented Programming, Linear Algebra, <br>" +
+        "Data and Statistical Analysis, Combinatorial Optimization, Sequential Programming, Numerical Computation, <br>" +
+        "Stochastic Processes"));
     var hobbies = new Folder("hobbies"); about.addFolder(hobbies);
         hobbies.addFile(new File("poker", "I'm deeply interested in poker for both it's simplicity yet insanely high level of complexity. I have been playing for quite a few years now, casually with friends, as a side hustle both online and in-person, and in many competitive settings such as part of the Waterloo poker club."));
-        hobbies.addFile(new File("sports", "I've grown up playing almost every sport imaginable, with some notable ones being: Hockey - for 13 years in both competitive (AAA) and recreational leagues, even being voted as team captain Basketball - played for 6 years on a mix of rep and house teams, and continuing to play to this day Kickboxing - trained throughout all of highschool, unfortunately never got to compete due to COVID Ultimate Frisbee - only started playing in university, but it's probably one of my favourite sports today Dodgeball - playing casually but as team captain for an intramural team in university Badminton - played for 2 years on my highschool team, and continue to play recreationally today"));
-        hobbies.addFile(new File("speedcubing", "I started solving Rubik's cubes back in 2009, and while I was originally just a casual solver, over the years I've become more involved on the competitive side of things, having competed in 9 competitions to date. My (unofficial) personal bests for my main events are: 3x3: 6.28 single, 8.77 Ao5 4x4: 27.05 single, 32.24 Ao5 5x5: 53.85 single, 1:00.94 Ao5<b>"));
+        hobbies.addFile(new File("sports", "I've grown up playing almost every sport imaginable, with some notable ones being:<br>" +
+        "Hockey - for 13 years in both competitive (AAA) and recreational leagues, even being voted as team captain<br>" +
+        "Basketball - played for 6 years on a mix of rep and house teams, and continuing to play to this day<br>" +
+        "Kickboxing - trained throughout all of highschool, unfortunately never got to compete due to COVID<br>" +
+        "Ultimate Frisbee - only started playing in university, but it's probably one of my favourite sports today<br>" +
+        "Dodgeball - playing casually but as team captain for an intramural team in university<br>" +
+        "Badminton - played for 2 years on my highschool team, and continue to play recreationally today"));
+        hobbies.addFile(new File("speedcubing", "I started solving Rubik's cubes back in 2009, and while I was originally just a casual solver, over the years I've become more involved on the competitive side of things, having competed in 9 competitions to date. My (unofficial) personal bests for my main events are:<br>" +
+        "3x3: 6.28 single, 8.77 Ao5<br>" +
+        "4x4: 27.05 single, 32.24 Ao5<br>" +
+        "5x5: 53.85 single, 1:00.94 Ao5<b>"));
         hobbies.addFile(new File("photography", "While I always loved taking photos, I was able to pick up a camera at the start of university and I've been pursuing casual landscape photography since. You can find some of my best works hidden in this website or check me out at <a href=https://www.instagram.com/snazzypictures7/ target=_blank>@SnazzyPictures7</a> (dedicated photography portfolio coming soon :3)."));
 var experience = new Folder("experience"); root.addFolder(experience);
     experience.addFile(new File("2025-janestreet",
-        "Jane Street Capital: Quantitative Trader || May 2025 - August 2025 - Return-interned to Jane Street's intensive 11 week summer internship, sitting on the Fixed-Income desk. - Researched and built out impact based signals for a variety of debt classes, passed relevant FINRA exams (SIE, S7, S57), and spent extensive amounts of time watching and participating in live trading."));
+        "Jane Street Capital: Quantitative Trader || May 2025 - August 2025<br>" + 
+        "- Return-interned to Jane Street's intensive 11 week summer internship, sitting on the Fixed-Income desk.<br>" +
+        "- Researched and built out impact based signals for a variety of debt classes, passed relevant FINRA exams (SIE, S7, S57), and spent extensive amounts of time watching and participating in live trading."));
     experience.addFile(new File("2025-xAI",
-        "xAI (Fromerly X/Twitter): Machine Learning Researcher || January 2025 - April 2025 - Worked on the Core Product team, building the Evergreen algorithm for recommending older videos. - Systematically iterated and A/B tested several novel approaches towards ranking weights and biases, while also leveraging Grok 3 to ultimately increase Evergreen engagement by 25%, affecting over 400m monthly active users."));
+        "xAI (Fromerly X/Twitter): Machine Learning Researcher || January 2025 - April 2025<br>" +
+        "- Worked on the Core Product team, building the Evergreen algorithm for recommending older videos.<br>" +
+        "- Systematically iterated and A/B tested several novel approaches towards ranking weights and biases, while also leveraging Grok 3 to ultimately increase Evergreen engagement by 25%, affecting over 400m monthly active users."));
     experience.addFile(new File("2024-janestreet", 
-        "Jane Street Capital: Quantitative Trader || May 2024 - August 2024 - Participated in Jane Street’s intensive 11 week summer trading internship, building novel end-to-end research projects, frequently conducting mock trading exercises, shadowing full timer traders, and analyzing diverse financial markets. - Researched and built a model to predict unique variance on the options desk, as well as a model to forecast hydroelectric generation on the commodities desk, both using pandas; also took the mock trading elective."));
+        "Jane Street Capital: Quantitative Trader || May 2024 - August 2024<br>" + 
+        "- Participated in Jane Street’s intensive 11 week summer trading internship, building novel end-to-end research projects, frequently conducting mock trading exercises, shadowing full timer traders, and analyzing diverse financial markets.<br>" + 
+        "- Researched and built a model to predict unique variance on the options desk, as well as a model to forecast hydroelectric generation on the commodities desk, both using pandas; also took the mock trading elective."));
     experience.addFile(new File("2023-accutar", 
-        "Accutar Biotech: Software Researcher || September 2023 - Dec 2023 - Used a combination of computational geometry, supervised and semi-supervised machine learning, optimization theory, and combinatorial optimization to improve drug-protein interaction analysis improving efficiency by up to 30%. - Built an imperative performance benchmarking platform that helped reduce efficiency tests by over 50%"));
+        "Accutar Biotech: Software Researcher || September 2023 - Dec 2023<br>" + 
+        "- Used a combination of computational geometry, supervised and semi-supervised machine learning, optimization theory, and combinatorial optimization to improve drug-protein interaction analysis improving efficiency by up to 30%.<br>" + 
+        "- Built an imperative performance benchmarking platform that helped reduce efficiency tests by over 50%"));
     experience.addFile(new File("2023-artemis", 
-        "Artemis Data: Software Engineer || Jan 2023 - Apr 2023 - Rigorously designed and implemented a novel back-end cataloging and syncing system for data organization and navigation. Reduced front-end user load times by over 99% and decreased back-end load by over 90%. - Engaged directly with customers and investors as product manager; responsible for envisioning, planning, implementing, and marketing new features and changes to boost overall interest and quality of the product. - Built up a crucial full-stack admin support application for monitoring and managing customer organization accounts, reducing new-customer onboarding time by over 75% and drastically decreasing user-support times."));
+        "Artemis Data: Software Engineer || Jan 2023 - Apr 2023<br>" + 
+        "- Rigorously designed and implemented a novel back-end cataloging and syncing system for data organization and navigation. Reduced front-end user load times by over 99% and decreased back-end load by over 90%.<br>" + 
+        "- Engaged directly with customers and investors as product manager; responsible for envisioning, planning implementing, and marketing new features and changes to boost overall interest and quality of the product.<br>" +
+        "- Built up a crucial full-stack admin support application for monitoring and managing customer organization accounts, reducing new-customer onboarding time by over 75% and drastically decreasing user-support times."));
     experience.addFile(new File("2022-moneris", 
-        "Moneris Solutions: Data Engineer || May 2022 - Aug 2022 - Worked extensively with SQL databases, structuring and scripting to improve data efficiency and reliability. Have processes running on over 1 billion monthly data points, improving efficiency over previous systems by up to 90%. - Utilized specialized automation and data pipelining tools such as ActiveBatch and SSMS to run jobs and monitor daily performance metrics through improved auditing techniques. - Created several new scripts and methods for automating and streamlining future job creation and implementation, greatly improved reliability, and improved human implementation efficiency by over 75%."));
+        "Moneris Solutions: Data Engineer || May 2022 - Aug 2022<br>" + 
+        "- Worked extensively with SQL databases, structuring and scripting to improve data efficiency and reliability. Have processes running on over 1 billion monthly data points, improving efficiency over previous systems by up to 90%.<br>" +
+        "- Utilized specialized automation and data pipelining tools such as ActiveBatch and SSMS to run jobs and monitor daily performance metrics through improved auditing techniques.<br>" +
+        "- Created several new scripts and methods for automating and streamlining future job creation and implementation, greatly improved reliability, and improved human implementation efficiency by over 75%."));
 root.addFile(new File("resume", ""));
 // root.addFile(new File("credits", "Website design and concept by Arthur Bright: <a href=https://github.com/arthurbright/arthurbright.github.io target=_blank>source</a>"));
 // root.addFile(new File("linkedin", "LinkedIn: <a href=https://www.linkedin.com/in/harryjiang7/ target=_blank>https://www.linkedin.com/in/harryjiang7/</a>"));
 
 var secret = new Folder("secret"); root.addFolder(secret);
-secret.addFile(new File("top-secret.txt", "Type 'pics' to see a random cool photo :3 or type 'game' to play a 'mental' arithmetic game!"));
+secret.addFile(new File("top-secret.txt", "Type 'pics' to see a random cool photo :3<br>" +
+"or type 'game' to play a 'mental' arithmetic game!"));
 
 
 
