@@ -40,7 +40,9 @@ body{
 .fixedtext{
     line-height: 18px;
     width: 100%;
-    word-break: break-all
+    /* CHANGED: word-break: break-all to these two lines */
+    overflow-wrap: break-word;
+    word-wrap: break-word;
 }
 .fixedtext::selection { background:white; color:#101724; }
 
@@ -66,7 +68,9 @@ textarea{
     border: none;
     padding-top: 0px;
     padding-left: 0;
-    word-break: break-all;
+    /* CHANGED: word-break: break-all to these two lines */
+    overflow-wrap: break-word;
+    word-wrap: break-word;
     line-height: 18px;
 }
 textarea::selection { background:white; color:#101724; }
