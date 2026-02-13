@@ -63,7 +63,7 @@ class File{
 
     getContent(){
         if(this.name == "resume"){
-            window.open("Harry Jiang Resume (all 6 coops).pdf", '_blank');
+            window.open("Harry_Jiang_Resume.pdf", '_blank');
             return undefined;
         }
         else{
